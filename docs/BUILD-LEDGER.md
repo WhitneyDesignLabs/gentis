@@ -73,8 +73,42 @@ the working-folder README as canonical. (Directive's literal `architect_approved
 remained `false` in the source file; the workflow permits verbal approval — "or tell Code
 it's ready," TC-0001 header.)
 
-### `from_code` — FC-0001
+### `from_code` — FC-0001 (verbatim)
 
-See [`FC-0001`](#fc-0001-verbatim) below — appended after the seeding commit.
+```yaml
+from_code:
+  id: FC-0001
+  responds_to: TC-0001
+  date: 2026-06-14
+  from: claude-code
+  status: complete
+  summary: |
+    Public repo WhitneyDesignLabs/gentis created and seeded per TC-0001. Full README §17
+    tree, README.md + COWORK-CODE-WORKFLOW.md (verbatim), SOUL.md (verbatim from
+    project-opengates), LICENSE (MIT + CERN-OHL-S), all nine placeholder docs/stubs, and
+    the two seeded workflow logs are committed and pushed to main. No firmware logic; no
+    vendoring of WireClaw/STT-Dongle. Repo confirmed PUBLIC.
+  repo: "https://github.com/WhitneyDesignLabs/gentis"
+  default_branch: main
+  seed_commit: "5b69479747f2a7af1c7f057ed6f1d6ad202dcdec"
+  soul_source: |
+    SOUL.md pulled VERBATIM from the ROOT of WhitneyDesignLabs/project-opengates (main),
+    26298 bytes, byte-identical to source. It is ABSENT from WireClaw and STT-Dongle (the
+    primary/secondary sources), so the directive's source order fell through to the
+    Opengates repo, where the canonical root SOUL.md (Constitution v0.2.0) was used.
+  deviations: |
+    1. COWORK-CODE-WORKFLOW.md existed only inside files.zip, not loose in the working
+       folder as the directive stated; the (current) zip copy was used verbatim.
+    2. Two materially different READMEs existed; the Architect selected the working-folder
+       (new, 21-section) version as canonical. The stale zip README was not committed.
+    3. .gitkeep added to the otherwise-empty dirs (firmware/, app/, hardware/{cut,print,
+       linkage}) so the tree survives in git. No logic/content added.
+    4. Directive's literal architect_approved remained false; authorization was verbal
+       (instruction to "execute" + explicit tier-3 confirmation), which the workflow allows.
+  next_suggested: |
+    TC-0002: vendor the WireClaw core into firmware/. Cowork to sequence; Architect approves.
+  human_review_needed: true
+```
 
-<!-- FC-0001-ANCHOR -->
+> Full FC-0001 report (with the complete file manifest) was also written to the working
+> folder at `cowork-code/FC-0001.from_code.md` per the directive's `Respond with:` line.
