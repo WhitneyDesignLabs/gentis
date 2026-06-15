@@ -1,0 +1,29 @@
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S v2)
+
+SPDX-License-Identifier: CERN-OHL-S-2.0
+Full licence text: https://ohwr.org/cern_ohl_s_v2.txt
+
+Copyright (c) 2026 Whitney Design Labs / Project Opengates
+
+This LICENSE-HARDWARE covers the HARDWARE in this repository: mechanical
+designs, laser-cut files, STLs, linkage geometry, wiring diagrams, and other
+physical-build / fabrication artifacts (e.g. everything under hardware/ and any
+design-source files). The SOFTWARE is licensed separately under the MIT License
+— see LICENSE.
+
+---
+
+This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
+
+You may redistribute and modify this source and make products using it under
+the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF
+MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
+Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: https://github.com/WhitneyDesignLabs/gentis
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this
+source, You must, where practicable, maintain the Source Location visible on the
+external packaging of the product or in documentation accompanying it.

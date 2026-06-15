@@ -816,5 +816,6 @@ and the **rigor of the safety layer** — by design, not by accident.
 *Gentis is part of Project Opengates. Capability without ethical foundation is not
 intelligence — it is danger. So we built a small predator that knows the difference.*
 
-**License:** code MIT, hardware CERN-OHL-S / CC-BY-SA. Build it, fork it, sell kits,
-improve it. Just keep it open, and keep the Gatekeeper in.
+**License:** software is MIT ([LICENSE](LICENSE)); hardware is CERN-OHL-S v2
+([LICENSE-HARDWARE](LICENSE-HARDWARE)). Build it, fork it, sell kits, improve it. Just keep
+it open, and keep the Gatekeeper in.

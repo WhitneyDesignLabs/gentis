@@ -1,20 +1,4 @@
-# Gentis — Licensing
-
-Gentis is dual-licensed to match the two kinds of work it contains:
-
-- **Software** (firmware, app, scripts, and all source code) is licensed under the
-  **MIT License** (below).
-- **Hardware** (mechanical designs, cut files, STLs, linkage geometry, wiring diagrams,
-  and other physical-build artifacts) is licensed under the
-  **CERN Open Hardware Licence Version 2 — Strongly Reciprocal (CERN-OHL-S v2)**.
-  SPDX-License-Identifier: `CERN-OHL-S-2.0`. Full text: https://ohwr.org/cern_ohl_s_v2.txt
-
-Where a file's nature is ambiguous, the licence that matches its primary use governs:
-code-like files are MIT; design/fabrication files are CERN-OHL-S v2.
-
----
-
-## MIT License (software)
+MIT License
 
 Copyright (c) 2026 Whitney Design Labs / Project Opengates
 
@@ -38,20 +22,7 @@ SOFTWARE.
 
 ---
 
-## CERN-OHL-S v2 (hardware)
-
-The hardware portions of this project are licensed under the CERN Open Hardware
-Licence Version 2 — Strongly Reciprocal. You may copy, modify, and distribute
-the hardware designs under the terms of that licence, provided you pass on the
-same freedoms and make complete source (design files) available under
-CERN-OHL-S v2.
-
-  SPDX-License-Identifier: CERN-OHL-S-2.0
-  Full licence text: https://ohwr.org/cern_ohl_s_v2.txt
-
-This component and its source are licensed under CERN-OHL-S v2 or any later
-version. You may redistribute and modify this documentation and make products
-using it under the terms of the CERN-OHL-S v2. This documentation is
-distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF
-MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
-Please see the CERN-OHL-S v2 for applicable conditions.
+This LICENSE covers the SOFTWARE in this repository (firmware, app, scripts, and
+all source code). The HARDWARE (mechanical designs, cut files, STLs, linkage
+geometry, wiring diagrams, and other physical-build artifacts) is licensed
+separately under CERN-OHL-S v2 — see LICENSE-HARDWARE.

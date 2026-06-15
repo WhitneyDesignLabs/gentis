@@ -16,7 +16,7 @@ to_code:
   date: 2026-06-14
   from: cowork
   to: claude-code
-  architect_approved: false        # <-- tier-3: Architect flips this to authorize
+  architect_approved: true         # tier-3: approved verbally by Architect (Scott) 2026-06-14; flag set true per TC-0002 step 0b to match the durable record
   goal_ref: G-01                    # "Stand up the public, documented Gentis project skeleton"
   authorization_tier: 3            # creates a PUBLIC repo — irreversible-ish
   title: "Create the public Gentis repo and seed the docs + ledger skeleton"
