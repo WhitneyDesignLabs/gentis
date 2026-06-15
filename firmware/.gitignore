@@ -1,0 +1,6 @@
+# PlatformIO build output and local state
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+*.pyc
