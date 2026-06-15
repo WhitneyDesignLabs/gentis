@@ -1,0 +1,6 @@
+TODO (later directive): author the Gentis system prompt.
+
+This is a Phase-1 placeholder. The real prompt — "You are Gentis…" plus the
+gesture vocabulary (rest, alert, track, offer, converge, strike, withdraw,
+chitter:*) and the SOUL.md distillation — is written in a later directive
+(README §9, §10). Do not ship this stub as the creature's personality.
